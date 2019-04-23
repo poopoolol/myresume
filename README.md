@@ -4,6 +4,7 @@
 2.我有嘗試自己搜尋資料，讓使用者將滑鼠移動到照片上時照片會放大、轉動(棒球)、背景變色(旅遊)
 3.利用goolge font網頁上面的字形讓外觀美化。
 4.嘗試寫js在網頁下方新增back to top按鈕。
+5.利用button和js讓按下主頁索引欄位的hello時會變成別的字
 二、參考資料
 1.索引欄引用bootstrap的Navbar
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
