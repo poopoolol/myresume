@@ -1,0 +1,52 @@
+#title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    background-color: #f2ff49;
+}
+
+#toprow {
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+}
+
+#picwall {
+    font-family: 'Neucha', cursive;
+}
+
+#aboutme {
+    background-color: #f2672b78;
+    font-family: 'Merienda', cursive;
+}
+
+#experience {
+    font-family: 'Caveat', cursive;
+    color: #070413;
+}
+
+#skill {
+    font-family: 'Aladin', cursive;
+}
+
+#hobby {
+    font-family: 'East Sea Dokdo', cursive;
+    background-color: #cdff5269;
+}
+
+#picwalltext {
+    padding-right: 200px;
+    padding-top: 100px;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+#picwalltext2 {
+    padding-top: 30px;
+}
+
+#bottom {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#albumtitle {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 50px;
+}
