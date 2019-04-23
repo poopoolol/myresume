@@ -28,7 +28,6 @@
 
 <body>
     <!--loading-->
-
     <!--上方欄位，含名字、email-->
     <div id="title">
         <div class="row">
@@ -46,7 +45,12 @@
     <!--索引欄位、主頁、照片、影片-->
     <div>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#8bffe399" id="toprow">
-            <a class="navbar-brand" href="#">Hello!&nbsp&nbsp&nbsp</a>
+            <a class="navbar-brand" href="#" onclick="changeText(this)">Hello!&nbsp&nbsp&nbsp</a>
+            <script>
+                function changeText(id) {
+                    id.innerHTML = "Nice to meet you!";
+                }
+            </script>
             <button class="navbar-toggler" type="button">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -183,17 +187,17 @@
                 </div>
                 <div class="row text-center mt-5">
                     <div class="col-12 col-sm-4">
-                        <img alt="image" class="fdb-icon" src="./pic/180123-F-LL945-0001.JPG" style="height:150px">
+                        <img alt="image" class="fdb-icon" src="./pic/180123-F-LL945-0001.JPG" style="height:150px" id="skillpic">
                         <h3 style="padding-top:30px"><strong>Experimental techniques</strong></h3>
                         <h4>After four years training in university, I am good at doing experiments, especially about analytical chemistry and plant sciences</h4>
                     </div>
                     <div class="col-12 col-sm-4 pt-4 pt-sm-0">
-                        <img alt="image" class="fdb-icon" src="./pic/work-4051777_960_720.jpg" style="height:150px">
+                        <img alt="image" class="fdb-icon" src="./pic/work-4051777_960_720.jpg" style="height:150px" id="skillpic">
                         <h3 style="padding-top:30px"><strong>Organizational skills</strong></h3>
                         <h4>Time is always the limited resource in our life, I can organize multiple missions on hand by the same time, accomplishing a goal after another</h4>
                     </div>
                     <div class="col-12 col-sm-4 pt-4 pt-sm-0">
-                        <img alt="image" class="fdb-icon" src="./pic/shutterstock_197859284.jpg" style="height:150px">
+                        <img alt="image" class="fdb-icon" src="./pic/shutterstock_197859284.jpg" style="height:150px" id="skillpic">
                         <h3 style="padding-top:30px"><strong>Creativity</strong></h3>
                         <h4>When encountering difficulties, I would come up with various solutions and discuss with my teamates, finding the best key to the answer</h4>
                     </div>
@@ -215,11 +219,11 @@
                 </div>
                 <div class="row text-lg-right align-items-center">
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <img alt="image" class="fdb-icon" src="./pic/mobileinfo-01.png" style="height:80px">
+                        <img alt="image" class="fdb-icon" src="./pic/mobileinfo-01.png" style="height:80px" id="baseball">
                         <h2><strong>Sports</strong></h2>
                         <h4>I've been playing baseball since senior high school, playing on the court definitely can refuel my energy!</h4>
 
-                        <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="./pic/travel-insurance-clipart-health-check-803623-7046845.png" style="height:100px">
+                        <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="./pic/travel-insurance-clipart-health-check-803623-7046845.png" style="height:100px " id="travel">
                         <h2><strong>Travel</strong></h2>
                         <h4>I like to travel and experience different cultures. Traveling abroad enables me to think in various ways.</h4>
 
@@ -232,7 +236,7 @@
                         <h2><strong>Growing plants and veggies</strong></h2>
                         <h4>Cultivating crops to me is lots of fun, it gave me sense of accomplishment.</h4>
 
-                        <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="./pic/decoding_web-1400x788.png" style="height:100px">
+                        <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="./pic/decoding_web-1400x788.png" style="height:100px" id="hiking">
                         <h2><strong>Hiking</strong></h2>
                         <h4>Wandering in the mother nature is such a interesting adventure, the cool breeze and delicate fragrance of flowers are so refreshing.</h4>
 

@@ -3,6 +3,10 @@
     width: 60%;
 }
 
+#movie1:hover {
+    opacity: 0.8;
+}
+
 #moviefont {
     font-family: 'Caveat', cursive;
 }

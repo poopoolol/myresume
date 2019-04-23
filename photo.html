@@ -49,7 +49,12 @@
     <!--索引欄位、主頁、照片、影片-->
     <div>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#8bffe399" id="toprow">
-            <a class="navbar-brand" href="#">Hello!&nbsp&nbsp&nbsp</a>
+            <a class="navbar-brand" href="#" onclick="changeText(this)">Hello!&nbsp&nbsp&nbsp</a>
+            <script>
+                function changeText(id) {
+                    id.innerHTML = "Nice to meet you!";
+                }
+            </script>
             <button class="navbar-toggler" type="button">
                       <span class="navbar-toggler-icon"></span>
                     </button>

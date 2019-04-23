@@ -7,6 +7,10 @@
     padding-right: 100px;
 }
 
+#aboutmepic:hover {
+    opacity: 0.8;
+}
+
 #experience {
     background: url("../pic/Image00059\(3\).jpg") no-repeat fixed center;
     background-size: cover;
@@ -29,6 +33,37 @@
 #picwall2 {
     width: 600px;
     padding-left: 200px;
+}
+
+#skillpic:hover {
+    opacity: 0.5;
+}
+
+#baseball:hover {
+    -ms-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    transform: rotate(200deg);
+}
+
+@keyframes example {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+#travel:hover {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#hiking:hover {
+    ms-transform: translate(50px);
+    -webkit-transform: translate(50px);
+    transform: translate(50px);
+    animation-duration: 4s;
 }
 
 .cd-top--is-visible {
@@ -290,5 +325,12 @@ a:focus {
 #course1 {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 50%;
+    overflow: visible;
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+#course1:hover {
+    transform: scale(1.1, 1.1);
 }
